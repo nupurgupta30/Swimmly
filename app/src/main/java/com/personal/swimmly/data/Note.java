@@ -10,6 +10,11 @@ public class Note {
 
     public String title;
     public String description;
+    String urgency; // high / med / low
+    String effort;  // hard / med / easy
+    String deadline;
+    boolean isDone;
+
 
     public Note(String title, String description) {
         this.title = title;
