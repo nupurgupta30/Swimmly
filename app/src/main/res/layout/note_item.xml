@@ -1,8 +1,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:padding="8dp"
+    android:orientation="vertical"
+    android:padding="8dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <!-- Title and Description stay the same -->
     <TextView
         android:id="@+id/textViewTitle"
         android:textSize="18sp"
@@ -15,4 +17,39 @@
         android:textSize="14sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <!-- New: show urgency -->
+    <TextView
+        android:id="@+id/textViewUrgency"
+        android:text="⏱︎ 30m"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- New: show effort level -->
+    <TextView
+        android:id="@+id/textViewEffort"
+        android:text="💪 Medium"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- New: show deadline -->
+    <TextView
+        android:id="@+id/textViewDeadline"
+        android:text="📅 2025-07-05"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- New: done indicator -->
+    <CheckBox
+        android:id="@+id/checkViewDone"
+        android:text="Done"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
