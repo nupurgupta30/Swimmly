@@ -3,6 +3,14 @@
     <style name="Base.Theme.Swimmly" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Tie MaterialComponents attrs to your colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+<!--        <item name="colorBackground">@color/background</item>-->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorOnSurface">@color/onSurface</item>
     </style>
 
     <style name="Theme.Swimmly" parent="Base.Theme.Swimmly" />
